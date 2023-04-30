@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.6" />
+            <item index="1" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="21">
+            <item index="0" class="java.lang.String" itemvalue="argparse" />
+            <item index="1" class="java.lang.String" itemvalue="yacs" />
+            <item index="2" class="java.lang.String" itemvalue="wandb" />
+            <item index="3" class="java.lang.String" itemvalue="torch" />
+            <item index="4" class="java.lang.String" itemvalue="torchvision" />
+            <item index="5" class="java.lang.String" itemvalue="pandas" />
+            <item index="6" class="java.lang.String" itemvalue="scikit_learn" />
+            <item index="7" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="8" class="java.lang.String" itemvalue="numpy" />
+            <item index="9" class="java.lang.String" itemvalue="termcolor" />
+            <item index="10" class="java.lang.String" itemvalue="timm" />
+            <item index="11" class="java.lang.String" itemvalue="json_tricks" />
+            <item index="12" class="java.lang.String" itemvalue="ptflops" />
+            <item index="13" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="14" class="java.lang.String" itemvalue="tensorwatch" />
+            <item index="15" class="java.lang.String" itemvalue="tensorboardX" />
+            <item index="16" class="java.lang.String" itemvalue="einops" />
+            <item index="17" class="java.lang.String" itemvalue="datetime" />
+            <item index="18" class="java.lang.String" itemvalue="shutil" />
+            <item index="19" class="java.lang.String" itemvalue="time" />
+            <item index="20" class="java.lang.String" itemvalue="pickle" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N812" />
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="bool.unsqueeze" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
